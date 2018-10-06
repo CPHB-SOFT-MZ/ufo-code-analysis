@@ -55,3 +55,7 @@ practice to have it and creates unnecessary clutter, which is why it should be r
     - Again, PMD reports nothing
 
 In conclusion to this, it seems like the code is OK. Of course, this is just a small sample of metrics run, and it could be that the ones I chose were so basic that the developers had this down at least. 
+
+## Profiling
+The profiling tools I've tried to use either didn't work, or the license costs half of a students SU. Netbeans doesn't work on my machine (MacOS High Sierra) so I only had the option to start and stop a timer on each of the tests in the `StarwarsQueryExecutorTest.groovy` test file. I didn't find the bottleneck, as my times were very identical. The only method taking longer than the others, were the first one, taking 0.45467112 seconds. All other methods ranged from between 0.01 to 0.04 seconds. 
+
